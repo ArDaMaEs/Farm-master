@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Medicine Page</title>
+
+    <!--link for css file-->
+    <link rel="stylesheet" type="text/css" href="med.css">
+    <!--link for css file-->
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Andika&display=swap" rel="stylesheet">
+    <!--google font-->
+
+    <!--library-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--library-->
+
+</head>
+<body>
+
+<!--header-->
+
+<header class="header">
+    <a href="#" class="logo">
+         <img src="image/logo.png">
+    </a>
+
+    <!--nav bar-->
+    <nav class="headbar">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="doc.html">Doctors</a>
+        <a href="med.html">Medicine</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!--nav bar-->
+
+    <div class="menubtn">
+        <button>Helpline</button>
+    </div>
+
+    <!--icons-->
+    <div class="icon">
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-upload" id="up-btn"></div>
+
+    </div>
+
+    <!--icons-->
+
+    <form class="search-form">
+        <input type="search" id="search-box" placeholder="Type Something..">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+
+        <div class="box">
+            <img src="image/m10.png">
+            <i class="fa fa-trash"></i>
+            <div class="content">
+                <h3>Immunity Tablet 60's</h3>
+                <span class="price">$5.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/m2.png">
+            <i class="fa fa-trash"></i>
+            <div class="content">
+                <h3>Sunscream</h3>
+                <span class="price">$6.79</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/m4.png">
+            <i class="fa fa-trash"></i>
+            <div class="content">
+                <h3>Moisturizer Cream</h3>
+                <span class="price">$10.43</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="upload-form">
+        <input class="default-btn" type="file" hidden>
+        <div class="btn">
+            <button onclick="active()" class="custom-btn">Upload Prescription</button>
+        </div>
+        <div class="file-name">No file Chosen</div>
+    </div>
+
+</header>
+
+<!--header-->
+    
+<!--medicine section-->    
+
+<section class="top" id="top">
+    <div class="container">
+        <h1 class="heading">WELLNESS</h1><hr>
+    </div>
+
+    <!--box container-->
+
+    <div class="box-container">
+    
+    <!--1-->
+
+    <!--box-->
+
+    <div class="box">
+        <!--img box-->
+        <div class="slide-img">
+            <img src="image/m7.png">
+
+            <!--overlay-->
+            <div class="overlay">
+                <!--learn-btn-->
+                <p>It is a one of its kind hygiene product that kills 99.99% germs. It also keeps your hands soft and mosturized.</p>
+
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <!--overlay-->
+        </div>
+
+        <!--star-->
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <!--star-->
+
+        <!--detail box-->
+
+        <div class="detail-box">
+
+            <!--type-->
+            <div class="type">
+                <a href="#">Hand Sanitizer 500ml</a>
+                <span>new arrival</span>
+            </div>
+            <!--type-->
+            
+            <!--price-->
+            <a href="#" class="price">$20</a>
+            <!--price-->
+        </div>
+
+        <!--button-->
+        <a href="#" class="my-button" title="b-title">Order Now</a>
+
+        <a href="#" class="my-button" title="b-title">Add to cart</a>
+        <!--button-->
+
+    </div>
+
+    <!--box-->
+
+        <!--2-->
+
+    <!--box-->
+
+    <div class="box">
+        <!--img box-->
+        <div class="slide-img">
+            <img src="image/m3.png">
+
+            <!--overlay-->
+            <div class="overlay">
+                <!--learn-btn-->
+                <p>Advanced formula facilitates deep cleaning to help make your scalp fight dandruff and itchiness.</p>
+
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <!--overlay-->
+        </div>
+
+        <!--star-->
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <!--star-->
+
+        <!--detail box-->
+
+        <div class="detail-box">
+
+            <!--type-->
+            <div class="type">
+                <a href="#">Shampoo & Conditioner 180ml</a>
+                <span>new arrival</span>
+            </div>
+            <!--type-->
+            
+            <!--price-->
+            <a href="#" class="price">$30</a>
+            <!--price-->
+        </div>
+
+        <!--button-->
+        <a href="#" class="my-button" title="b-title">Order Now</a>
+
+        <a href="#" class="my-button" title="b-title">Add to cart</a>
+        <!--button-->
+
+    </div>
+
+    <!--box-->
+
+        <!--3-->
+
+    <!--box-->
+
+    <div class="box">
+        <!--img box-->
+        <div class="slide-img">
+            <img src="image/m4.png">
+
+            <!--overlay-->
+            <div class="overlay">
+                <!--learn-btn-->
+                <p>Keratolytic qualities of moisturex cream can smooth rough, scaly skin. It makes the skin healthy, fully protected skin and shiny</p>
+
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <!--overlay-->
+        </div>
+
+        <!--star-->
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <!--star-->
+
+        <!--detail box-->
+
+        <div class="detail-box">
+
+            <!--type-->
+            <div class="type">
+                <a href="#">Moisturizer Cream 100gm</a>
+                <span>new arrival</span>
+            </div>
+            <!--type-->
+            
+            <!--price-->
+            <a href="#" class="price">$20</a>
+            <!--price-->
+        </div>
+
+        <!--button-->
+        <a href="#" class="my-button" title="b-title">Order Now</a>
+
+        <a href="#" class="my-button" title="b-title">Add to cart</a>
+        <!--button-->
+
+    </div>
+
+    <!--box-->
+
+        <!--4-->
+
+    <!--box-->
+
+    <div class="box">
+        <!--img box-->
+        <div class="slide-img">
+            <img src="image/m5.png">
+
+            <!--overlay-->
+            <div class="overlay">
+                <!--learn-btn-->
+                <p>Provide protection against germs, It has triclosan that helps to keep your body clean and protected.</p>
+
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <!--overlay-->
+        </div>
+
+        <!--star-->
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <!--star-->
+
+        <!--detail box-->
+
+        <div class="detail-box">
+
+            <!--type-->
+            <div class="type">
+                <a href="#">Anti Bacterial Soap 75gm</a>
+                <span>new arrival</span>
+            </div>
+            <!--type-->
+            
+            <!--price-->
+            <a href="#" class="price">$9</a>
+            <!--price-->
+        </div>
+
+        <!--button-->
+        <a href="#" class="my-button" title="b-title">Order Now</a>
+
+        <a href="#" class="my-button" title="b-title">Add to cart</a>
+        <!--button-->
+
+    </div>
+
+    <!--box-->
+    </div>
+    <!--box container-->
+
+</section>
+
+<!--medicine section 2-->
+
+<section class="bottom" id="bottom">
+    <div class="container">
+        <h1 class="heading">Medicine</h1><hr>
+    </div>
+
+    <!--box container-->
+
+    <div class="box-container">
+    
+    <!--5-->
+
+    <!--box-->
+
+    <div class="box">
+        <!--img box-->
+        <div class="slide-img">
+            <img src="image/m8.png" style="width: 90%; padding-left: 15%;">
+
+            <!--overlay-->
+            <div class="overlay">
+                <!--learn-btn-->
+                <p>Fever and pain, tonsilitis, upper respiratory tract infection, Post-Immunization reactions.</p>
+
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <!--overlay-->
+        </div>
+
+        <!--star-->
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <!--star-->
+
+        <!--detail box-->
+
+        <div class="detail-box">
+
+            <!--type-->
+            <div class="type">
+                <a href="#">Paracetamol 15gm</a>
+                <span>new arrival</span>
+            </div>
+            <!--type-->
+            
+            <!--price-->
+            <a href="#" class="price">$6</a>
+            <!--price-->
+        </div>
+
+        <!--button-->
+        <a href="#" class="my-button" title="b-title">Order Now</a>
+
+        <a href="#" class="my-button" title="b-title">Add to cart</a>
+        <!--button-->
+
+    </div>
+
+    <!--box-->
+
+    <!--6-->
+
+    <!--box-->
+
+    <div class="box">
+        <!--img box-->
+        <div class="slide-img">
+            <img src="image/m9.png">
+
+            <!--overlay-->
+            <div class="overlay">
+                <!--learn-btn-->
+                <p>Maintain levels of the vitamin D3 in your body, Maintain healthy bones and teeth.</p>
+
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <!--overlay-->
+        </div>
+
+        <!--star-->
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <!--star-->
+
+        <!--detail box-->
+
+        <div class="detail-box">
+
+            <!--type-->
+            <div class="type">
+                <a href="#">Vitamin D3 Tablet's 10's</a>
+                <span>new arrival</span>
+            </div>
+            <!--type-->
+            
+            <!--price-->
+            <a href="#" class="price">$10</a>
+            <!--price-->
+        </div>
+
+        <!--button-->
+        <a href="#" class="my-button" title="b-title">Order Now</a>
+
+        <a href="#" class="my-button" title="b-title">Add to cart</a>
+        <!--button-->
+
+    </div>
+
+    <!--box-->
+
+    <!--7-->
+
+    <!--box-->
+
+    <div class="box">
+        <!--img box-->
+        <div class="slide-img">
+            <img src="image/m10.png">
+
+            <!--overlay-->
+            <div class="overlay">
+                <!--learn-btn-->
+                <p>Strngthens body's defense system against cold cough helps the body to fight against seasonal viral infections.</p>
+
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <!--overlay-->
+        </div>
+
+        <!--star-->
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <!--star-->
+
+        <!--detail box-->
+
+        <div class="detail-box">
+
+            <!--type-->
+            <div class="type">
+                <a href="#">Immunity Tablet 60's</a>
+                <span>new arrival</span>
+            </div>
+            <!--type-->
+            
+            <!--price-->
+            <a href="#" class="price">$25</a>
+            <!--price-->
+        </div>
+
+        <!--button-->
+        <a href="#" class="my-button" title="b-title">Order Now</a>
+
+        <a href="#" class="my-button" title="b-title">Add to cart</a>
+        <!--button-->
+
+    </div>
+
+    <!--box-->
+
+        <!--8-->
+
+    <!--box-->
+
+    <div class="box">
+        <!--img box-->
+        <div class="slide-img">
+            <img src="image/m11.png">
+
+            <!--overlay-->
+            <div class="overlay">
+                <!--learn-btn-->
+                <p>Helps in the management of normalizing insulin function, Boost immune system, Maintains blood sugar level.</p>
+
+                <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <!--overlay-->
+        </div>
+
+        <!--star-->
+        <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+        </div>
+        <!--star-->
+
+        <!--detail box-->
+
+        <div class="detail-box">
+
+            <!--type-->
+            <div class="type">
+                <a href="#">Diabetes Tablet 10's</a>
+                <span>new arrival</span>
+            </div>
+            <!--type-->
+            
+            <!--price-->
+            <a href="#" class="price">$8</a>
+            <!--price-->
+        </div>
+
+        <!--button-->
+        <a href="#" class="my-button" title="b-title">Order Now</a>
+
+        <a href="#" class="my-button" title="b-title">Add to cart</a>
+        <!--button-->
+
+    </div>
+
+    <!--box-->
+    </div>
+    <!--box container-->
+
+</section>
+
+<!--medicine section 2-->
+
+
+<!--link for js file-->
+<script type="text/javascript" src="med.js"></script>
+<!--link for js file-->
+</body>
+</html>

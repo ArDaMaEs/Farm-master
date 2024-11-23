@@ -1,0 +1,15 @@
+Crean la base de datos que les dí, y en el archivo api.py el user lo dejan como esta a menos que ustedes le hayan cambiado el nombre a su usuario de base de datos, 
+pero por defecto es root, solo cambian la contraseña por la de su mysql.
+
+Despues en visual abren una integral desde la carpeta backend y ahí escriben: python -m venv venv
+
+
+Despues en esa misma integral donde pusieron ese comando escriben: mysql -u root -p
+
+Les abrira el mysql y solo le escribiran USE farm_project;
+
+Luego ejecutan en una nueva terminal control + ñ: python api.py
+
+Abren el Login.html y registran un usuario, luego van al mysql de visual y escriben SELECT * FROM users;
+
+Y liston
